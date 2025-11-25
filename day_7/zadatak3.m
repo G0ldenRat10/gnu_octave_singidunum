@@ -1,0 +1,5 @@
+counter = 1
+for i = 1:5
+  counter = i * counter;
+endfor
+disp(counter)
