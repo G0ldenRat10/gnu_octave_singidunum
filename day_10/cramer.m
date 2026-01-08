@@ -12,4 +12,4 @@ function X = Cramer(A,B)
     C = A; C(:,j)=B; X(j)=det(C)/det(A);
   endfor
   X=X';
-
+endfunction
